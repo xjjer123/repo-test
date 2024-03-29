@@ -15,6 +15,8 @@ asdfghjklklkjhgfdsas
 
 zxcvbnmnbvzxcvcbvnmb
 
+${state_sys.theme}${auiThemellersion.slice(3, 4)}.css
+可以提取出来
 
 1. 222
 2. 2222
