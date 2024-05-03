@@ -476,7 +476,7 @@
          "close_protect" : {
             "enable" : "0",
             "inherit" : "0",
-            "pwd_mode" : "1",
+            "pwd_mode" : "155555",
             "value" : ""
          },
          "conf_ver" : 1376626603,
