@@ -216,3 +216,1747 @@
    "id" : 1,
    "type" : 2100
 }
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
+{
+   "detail" : {
+      "base_config" : {
+         "advtools_download" : {
+            "customproxy" : {
+               "agent_type" : "0",
+               "agent_type_v6" : "0",
+               "domain" : "",
+               "password" : "",
+               "password_v6" : "23143431",
+               "port" : "",
+               "port_v6" : "",
+               "serverip" : "",
+               "serverip_v6" : "",
+               "username" : "",
+               "username_v6" : "",
+	       "aaaa": "a",
+	       "bbbb": "b"
+            },
+            "inherit" : "0",
+            "lock" : "0",
+            "value" : "1"
+         },
+         "api_frequency" : {
+            "checkupdate" : "180",
+            "inherit" : "0",
+            "svr_init_info" : "180",
+            "update_client_info" : "60"
+         },
+         "asset_resubmit" : {
+            "days" : "7",
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "clock_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "close_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "conf_ver" : 1376626603,
+         "conf_ver_s" : "d95e2672##",
+         "configfor8021xlogon" : {
+            "adddesktoplink" : 1,
+            "addfastbarlink" : 0,
+            "addprogramlink11111111" : 0,
+            "auto90900auth" : 0,
+            "enablep0000ostauthtask" : 0,
+            "execfilepath" : "",
+            "execinterval" : 1,
+            "execmaxcount" : 1,
+            "execonauthedonline" : 0,
+            "execonlyonce" : 1,
+            "force_savepwd_maxtime_limit" : 0,
+            "forgetpwdflag" : 1,
+            "hideonauthsucc" : 1,
+	    "hideonauthsucc1" : 1,
+	    "hideonauthsucc2" : 1,
+	    "hideonauthsucc3" : 1,
+	    "hideonauthsucc4" : 1,
+            "hideonstart" : 0,
+            "hideoption" : 0,
+            "hoststate_api" : "",
+            "httpauthflag" : 0,
+            "inherit" : "1",
+            "isconfiglog" : 0,
+            "isconfigon" : 0,
+            "jumpwirelesslogon" : 0,
+            "logo_url" : "",
+            "logonmode" : 0,
+            "nac1xauthflag" : 1,
+            "netautoauth" : 1,
+            "pwdmodifyurl" : "http://127.0.0.1:8080/nac/useraccess/changepwd",
+            "savepwd_maxtime" : 86400,
+            "send_method" : 1,
+            "showautologon" : 1,
+            "showpwdmodify" : 0,
+            "trayicon" : 1,
+            "user_fastauth" : 0,
+            "usewindowslogon" : 0,
+            "webauth_api" : "http://10.129.3.125:8080/nac/portalauth/clienthttplogin"
+         },
+         "enforce" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "install_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "keyboard_dump" : {
+            "fulltype_dump" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "leak_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "lib_update" : {
+            "inherit" : "0",
+            "value" : "3"
+         },
+         "modify" : {
+            "inherit" : "0",
+            "value" : "0"
+         },
+         "need_login" : {
+            "ad_password" : "",
+            "ad_rdn" : "",
+            "ad_server_host" : "",
+            "ad_server_port" : "389",
+            "auth_cycle" : "30",
+            "auth_cycle_enable" : "0",
+            "auth_req_enable" : "0",
+            "auth_req_msg" : "新帐号申请地址",
+            "auth_req_url" : "",
+            "auth_type" : "AD",
+            "custom_ldap" : "0",
+            "disable_close_button" : "0",
+            "disable_domin_pop" : "0",
+            "enable" : "0",
+            "enable_get_login_user" : "0",
+            "inherit" : "0",
+            "ldap_login_enable" : "0",
+            "ldap_login_priority" : "1",
+            "local_login_enable" : "0",
+            "local_login_priority" : "2",
+            "login_msg" : "请输入您的域帐号密码以完成终端的帐号绑定"
+         },
+         "net_env" : {
+            "inherit" : "0",
+            "value" : "4"
+         },
+         "net_env_port" : {
+            "inherit" : "0",
+            "value" : "5000"
+         },
+         "net_protocol" : {
+            "inherit" : "0",
+            "value" : "1.0"
+         },
+         "notice_client_exec_cmd" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "ntp_sync" : {
+            "inherit" : "0",
+            "interval" : "15",
+            "ntp_ip" : "",
+            "value" : "0"
+         },
+         "persistent_connetion" : {
+            "enable" : {
+               "inherit" : "0",
+               "lock" : "0",
+               "value" : "0"
+            },
+            "server" : {
+               "enable" : "1",
+               "enable_v6" : "0",
+               "inherit" : "0",
+               "ip" : "",
+               "ip_v6" : "",
+               "lock" : "0",
+               "port" : "8000",
+               "port_v6" : "8000"
+            }
+         },
+         "ping_time" : {
+            "inherit" : "0",
+            "value" : "900"
+         },
+         "qvm_query" : {
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "restart_client_process" : {
+            "enable" : "1",
+            "inherit" : "0",
+            "value" : "1"
+         },
+         "time_sync" : {
+            "inherit" : "0",
+            "interval" : "1",
+            "value" : "0"
+         },
+         "uninstall_protect" : {
+            "enable" : "0",
+            "inherit" : "0",
+            "pwd_mode" : "1",
+            "value" : ""
+         },
+         "upload_log_backup_srv_lst" : {
+            "inherit" : "0",
+            "server_list" : []
+         },
+         "upstream_setting" : {
+            "inherit" : "0",
+            "match_type" : "stable_random",
+            "server_list" : [
+               {
+                  "server" : "access.qianxin.huawei.com:8530"
+               }
+            ]
+         }
+      }
+   },
+   "id" : 1,
+   "type" : 2100
+}
