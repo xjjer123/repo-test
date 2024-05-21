@@ -1,6 +1,5 @@
-1
-  1
-    1
-    1
-    1
-    
+# include "a.h"
+
+int main(){
+  return 0;
+}
