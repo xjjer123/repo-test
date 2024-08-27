@@ -7,6 +7,26 @@
 
 #### 3
 
+```plantuml
+@startmindmap
+skinparam svgLinkTarget _blank
+
+* 规则流程
+** 公司
+*** [[https://gitlab.com/xjj0208/pro01/-/learn_gitlab 管理全景图]]
+**** [[https://gitlab.com/xjj0208/pro01/-/learn_gitlab 流程指导 ]]
+**** [[https://github.com/xjjer123/test-/pulse 社区化开发指南]]
+**** [[https://github.com/xjjer123/test-/pulse 例外备案机制]]
+*** [[https://github.com/xjjer123/test-/pulse 开源开发]]
+*** [[https://github.com/xjjer123/test-/pulse 开源培训课程体系全景图]]
+**** 第1课：[[https://github.com/xjjer123/test-/pulse 开源分析与应用技术]]
+**** [[https://github.com/xjjer123/test-/pulse 开源License专项解读]]
+** 中软
+*** [[https://github.com/xjjer123/test-/pulse 开源选型、使用、维护指导 ]]
+*** [[https://github.com/xjjer123/test-/pulse 首次引入开源软件\n评估模板]]
+*** [[https://github.com/xjjer123/test-/pulse 开源风险项异常说明和备案要求]]
+@endmindmap
+```
 
 # 1.1 
 
