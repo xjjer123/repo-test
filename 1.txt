@@ -1774,7 +1774,1749 @@ def main():
             print(f"恭喜你，猜对了！答案就是 {target}。")
             print(f"你共尝试了 {attempts} 次。")
             break
+1ewfcrwver 32566666
+vetvretvteeeeeeeeeeeeeeeeeql;kgl;rekgl;reg
+sfsdfklsdkvflv111defvlkmf,l sdCVs
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafnbhg
+nm
+hhbn
+rt
+regyh
+ryu
+try
+tyu
 
+nm
+hhbn
+rt
+regyh
+ryu
+try
+tyu
+
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+
+kuy
+ryutdgbvrtblgdskfksdlfwrekgjtkrnbmdevgsDSDA
+regrerjgkerjgfksjfsDSASDA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+
+
+
+sdfrkflwrkDSADASDflwref
+
+
+fwklfkwrlfwefwelfrwe
+fgrw
+reDASDASDAegerjgkerjgfksjfserg
+vetvretvteeeeeeeeeeeeeeeeeqlter
+dfvrklvgsfklvksflvlfsvdfgb
+ethethDSADSAktelhketlhketrghbetklertkglrwkf
+fgrwsd
+sfsdfklsdkvflvdefvlkmffsd
+fgrf
+fwklDASDSAfkwrlfwefwelfrwerghrtkhltrklhter
+
+swDASDAfFAD
+GFD
+AS
+GFDRE
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTY
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYYTHJ
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYTY
+hrt
+GFDREC
+WECREWFREFREFREWFREW
+
+WECREWFREFREFREWFREWDEWDEW
+
+reDASDASDAegerjgkerjgfksjfserg
+reDASDASDAegerjgkerjgfksjfsergdasd
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+reDASDASDAegerjgkerjgfksjfserg
+
+fdskflwrkglwrkglrwekglerthlt,veg
+regregerjgkerjgfksjfsr
+gergre
+regregerjgkerjgfksjfsge
+gergrereg
+fdskflwrkglwrkglrwekglerthltger
+hnhetklhgsrklgw
+gergrewdg
+erghklregklwrelgkrwegwr
+
+fdskflwrkglwrkglrwekglerthltewf
+wefkwelgfklewkfewlrfew
+wefkwelgfklewkfewlrfewwef
+weklejkgwkreg;wreg.wefkwelgfklewkfewlrfewGFew
+fdskflwrkglwrkglrwekglerthltwe
+wefkwelgfklewkfewlrfewfwegjkrwlegklrwglkwegwe
+
+fweklflflwefew
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+1ewfcrwver 32566666
+vetvretvteeeeeeeeeeeeeeeeeql;kgl;rekgl;reg
+sfsdfklsdkvflv111defvlkmf,l sdCVs
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafnbhg
+nm
+hhbn
+rt
+regyh
+ryu
+try
+tyu
+
+
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+
+kuy
+ryutdgbvrtblgdskfksdlfwrekgjtkrnbmdevgsDSDA
+regrerjgkerjgfksjfsDSASDA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+
+
+
+sdfrkflwrkDSADASDflwref
+
+
+fwklfkwrlfwefwelfrwe
+fgrw
+reDASDASDAegerjgkerjgfksjfserg
+vetvretvteeeeeeeeeeeeeeeeeqlter
+dfvrklvgsfklvksflvlfsvdfgb
+ethethDSADSAktelhketlhketrghbetklertkglrwkf
+fgrwsd
+sfsdfklsdkvflvdefvlkmffsd
+fgrf
+fwklDASDSAfkwrlfwefwelfrwerghrtkhltrklhter
+
+swDASDAfFAD
+GFD
+AS
+GFDRE
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTY
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYYTHJ
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYTY
+hrt
+GFDREC
+WECREWFREFREFREWFREW
+
+WECREWFREFREFREWFREWDEWDEW
+
+reDASDASDAegerjgkerjgfksjfserg
+reDASDASDAegerjgkerjgfksjfsergdasd
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+reDASDASDAegerjgkerjgfksjfserg
+
+fdskflwrkglwrkglrwekglerthlt,veg
+regregerjgkerjgfksjfsr
+gergre
+regregerjgkerjgfksjfsge
+gergrereg
+fdskflwrkglwrkglrwekglerthltger
+hnhetklhgsrklgw
+gergrewdg
+erghklregklwrelgkrwegwr
+
+fdskflwrkglwrkglrwekglerthltewf
+wefkwelgfklewkfewlrfew
+wefkwelgfklewkfewlrfewwef
+weklejkgwkreg;wreg.wefkwelgfklewkfewlrfewGFew
+fdskflwrkglwrkglrwekglerthltwe
+wefkwelgfklewkfewlrfewfwegjkrwlegklrwglkwegwe
+
+fweklflflwefew
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+1ewfcrwver 32566666
+vetvretvteeeeeeeeeeeeeeeeeql;kgl;rekgl;reg
+sfsdfklsdkvflv111defvlkmf,l sdCVs
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafnbhg
+nm
+hhbn
+rt
+regyh
+ryu
+try
+tyu
+
+
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+
+kuy
+ryutdgbvrtblgdskfksdlfwrekgjtkrnbmdevgsDSDA
+regrerjgkerjgfksjfsDSASDA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+
+
+
+sdfrkflwrkDSADASDflwref
+
+
+fwklfkwrlfwefwelfrwe
+fgrw
+reDASDASDAegerjgkerjgfksjfserg
+vetvretvteeeeeeeeeeeeeeeeeqlter
+dfvrklvgsfklvksflvlfsvdfgb
+ethethDSADSAktelhketlhketrghbetklertkglrwkf
+fgrwsd
+sfsdfklsdkvflvdefvlkmffsd
+fgrf
+fwklDASDSAfkwrlfwefwelfrwerghrtkhltrklhter
+
+swDASDAfFAD
+GFD
+AS
+GFDRE
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTY
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYYTHJ
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYTY
+hrt
+GFDREC
+WECREWFREFREFREWFREW
+
+WECREWFREFREFREWFREWDEWDEW
+
+reDASDASDAegerjgkerjgfksjfserg
+reDASDASDAegerjgkerjgfksjfsergdasd
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+reDASDASDAegerjgkerjgfksjfserg
+
+fdskflwrkglwrkglrwekglerthlt,veg
+regregerjgkerjgfksjfsr
+gergre
+regregerjgkerjgfksjfsge
+gergrereg
+fdskflwrkglwrkglrwekglerthltger
+hnhetklhgsrklgw
+gergrewdg
+erghklregklwrelgkrwegwr
+
+fdskflwrkglwrkglrwekglerthltewf
+wefkwelgfklewkfewlrfew
+wefkwelgfklewkfewlrfewwef
+weklejkgwkreg;wreg.wefkwelgfklewkfewlrfewGFew
+fdskflwrkglwrkglrwekglerthltwe
+wefkwelgfklewkfewlrfewfwegjkrwlegklrwglkwegwe
+
+fweklflflwefew
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+1ewfcrwver 32566666
+vetvretvteeeeeeeeeeeeeeeeeql;kgl;rekgl;reg
+sfsdfklsdkvflv111defvlkmf,l sdCVs
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafnbhg
+nm
+hhbn
+rt
+regyh
+ryu
+try
+tyu
+
+
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSA
+
+kuy
+ryutdgbvrtblgdskfksdlfwrekgjtkrnbmdevgsDSDA
+regrerjgkerjgfksjfsDSASDA
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+
+
+
+sdfrkflwrkDSADASDflwref
+
+
+fwklfkwrlfwefwelfrwe
+fgrw
+reDASDASDAegerjgkerjgfksjfserg
+vetvretvteeeeeeeeeeeeeeeeeqlter
+dfvrklvgsfklvksflvlfsvdfgb
+ethethDSADSAktelhketlhketrghbetklertkglrwkf
+fgrwsd
+sfsdfklsdkvflvdefvlkmffsd
+fgrf
+fwklDASDSAfkwrlfwefwelfrwerghrtkhltrklhter
+
+swDASDAfFAD
+GFD
+AS
+GFDRE
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTY
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYYTHJ
+vetvretvteeeeeeeeeeeeeeeeeqlGHBTYTY
+hrt
+GFDREC
+WECREWFREFREFREWFREW
+
+WECREWFREFREFREWFREWDEWDEW
+
+reDASDASDAegerjgkerjgfksjfserg
+reDASDASDAegerjgkerjgfksjfsergdasd
+sfsdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdaf
+sdfklsdkvflvdefvlkmfvdfvkldgfvkdlbvdafbdgDSDSDSADS
+reDASDASDAegerjgkerjgfksjfserg
+
+fdskflwrkglwrkglrwekglerthlt,veg
+regregerjgkerjgfksjfsr
+gergre
+regregerjgkerjgfksjfsge
+gergrereg
+fdskflwrkglwrkglrwekglerthltger
+hnhetklhgsrklgw
+gergrewdg
+erghklregklwrelgkrwegwr
+
+fdskflwrkglwrkglrwekglerthltewf
+wefkwelgfklewkfewlrfew
+wefkwelgfklewkfewlrfewwef
+weklejkgwkreg;wreg.wefkwelgfklewkfewlrfewGFew
+fdskflwrkglwrkglrwekglerthltwe
+wefkwelgfklewkfewlrfewfwegjkrwlegklrwglkwegwe
+
+fweklflflwefew
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
+
+import random
+import sys
+
+def main():
+    print("欢迎来到猜数字游戏！")
+    print("我已经随机选好了一个 1~100 之间的整数，快来猜吧！")
+
+    target = random.randint(1, 100)
+    attempts = 0
+
+    while True:
+        try:
+            guess = input("请输入你的猜测（或输入 q 退出）: ").strip()
+            if guess.lower() == 'q':
+                print("感谢游玩，游戏结束。")
+                sys.exit(0)
+
+            guess_num = int(guess)
+        except ValueError:
+            print("无效输入，请输入一个整数或 q 退出。")
+            continue
+
+        attempts += 1
+
+        if guess_num < target:
+            print("太小了！")
+        elif guess_num > target:
+            print("太大了！")
+        else:
+            print(f"恭喜你，猜对了！答案就是 {target}。")
+            print(f"你共尝试了 {attempts} 次。")
+            break
+
+if __name__ == "__main__":
+    main()
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+猜数字小游戏
+- 电脑随机生成 1~100 之间的整数
+- 玩家每次输入猜测，程序会提示“太大了”“太小了”或“猜对了”
+- 记录猜测次数，猜中后给出成绩
+"""
 if __name__ == "__main__":
     main()
 
