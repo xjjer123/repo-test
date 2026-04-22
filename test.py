@@ -27,7 +27,7 @@ SHAPES = [
     [[0, 1, 1], [1, 1, 0]],  # Z型
     [[1, 1, 1], [1, 0, 0]]   # J型
 ]
-"""
+
 # 随机选择一个方块
 def get_shape():
     return SHAPES[random.randint(0, len(SHAPES) - 1)]
